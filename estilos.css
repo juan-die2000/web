@@ -1,0 +1,126 @@
+body {
+    background-image: url(imagenes/fondo-de-plumas.jpg);
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#contenedor {
+    background-color: black;
+    padding: 15px 10px;
+    display: inline-block;
+    width: 800px;
+    height: 210px;
+    border-radius: 35px;
+    margin: 5px;
+    overflow: visible;
+    justify-content: center;
+}
+
+header {
+    justify-content: center;
+    padding: 15px 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.cabecera {
+    height: 5px;
+    margin: -10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    background-image: url(imagenes/logo-l-oro.jpg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    text-indent: -200px;
+    overflow: hidden; 
+    font-size: 0;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+nav ul li {
+    background-color: cornflowerblue;
+    display: inline-block;
+    width: 150px;
+    list-style-type: none;
+    border-radius: 20px;
+    margin: 10px;
+    font-family: 'Montserrat',Bold;
+}
+
+nav ul li a {
+    color:aliceblue;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    background-color: orange;
+    color: black;
+    border-radius: 20px;
+}
+
+.section {
+    width: 700px;
+    height: 900px;
+    margin: 5px;
+    background-color: orange;
+    padding: 10px 10px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    width: 190px;
+    height: 15px;
+    margin: 10px 10px;
+    display: flex;
+    padding: 10px 15px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-style: Bold;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#contenido1 {
+    padding-left: 20px;
+    margin: 15px;
+}
+
+#contenido2 {
+    padding-left: 420px;
+    text-align: center;
+}
+
+#contenido3 {
+    padding: 50px 15px;
+    padding-right: 480px;
+    margin-top: -610px;
+}
+
+#palabras2 {
+    padding-left: 40px;
+}
+
+#extra {
+    padding: 50px 15px;
+    margin-top: -440px;
+    font-family: 'Montserrat' Bold;
+    font-size: 17px;
+}

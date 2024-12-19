@@ -1,0 +1,87 @@
+body {
+    background-image: url(imagenes/fondo-de-plumas.jpg);
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#contenedor {
+    background-color: orange;
+    padding: 15px 10px;
+    display: inline-block;
+    width: 800px;
+    height: 510px;
+    border-radius: 35px;
+    margin: 5px;
+    overflow: visible;
+    justify-content: center;
+}
+
+#logo { 
+    background-image: url(imagenes/logo-l-oro.jpg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    text-indent: -200px;
+    overflow: hidden; 
+    font-size: 0;
+    margin-left: 350px;
+    border-radius: 20px;
+}
+
+p {
+    color: black;
+    font-family: 'Montserrat';
+    font-style: Bold;
+    font-size: 20px;
+}
+
+.section {
+    margin: 15px;
+}
+
+footer {
+    width: 500px;
+    height: 120px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 30px;
+    box-shadow: 50%; box-shadow: 6px 6px 8px rgb(112, 148, 247) ;
+}
+
+address {
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+
+}
+
+#boton {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 169, 39);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+}
+
+#boton a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+}
+
+#boton p {
+    margin: 2;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Montserrat', Bold;
+    font-size: 10px;
+}
+
+svg {
+    width: 1px;
+    height: auto;
+}
+

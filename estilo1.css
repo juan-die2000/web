@@ -1,0 +1,90 @@
+body {
+    background-image: url(imagenes/fondo-de-plumas.jpg);
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#contenedor {
+    background-color: orange;
+    padding: 15px 10px;
+    display: inline-block;
+    width: 800px;
+    height: 940px;
+    border-radius: 35px;
+    margin: 5px;
+    overflow: visible;
+    justify-content: center;
+}
+
+h2 {
+    color: black;
+    font-family: 'Montserrat';
+    font-style: Bold;
+    font-size: 20px;
+}
+
+.section {
+    margin: 15px;
+}
+
+footer {
+    width: 800px;
+    height: 150px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+nav ul li{
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    display: flex;
+    color: black;
+    font-family: Arial;
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+    align-items: center;
+    overflow: hidden; 
+    text-indent: -500px;
+}
+
+address {
+    color: white;
+}
+
+#boton {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 169, 39);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+}
+
+#boton a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+}
+
+#boton p {
+    margin: 2;
+    line-height: 40px;
+    font-family: 'Montserrat', Bold;
+    font-size: 10px;
+}
+
+svg {
+    width: 1px;
+    height: auto;
+}
+
+
+    
